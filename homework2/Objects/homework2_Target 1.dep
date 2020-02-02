@@ -1,0 +1,714 @@
+Dependencies for Project 'homework2', Target 'Target 1': (DO NOT MODIFY !)
+F (.\assembly_file.s)(0x5DEC0738)(--cpu Cortex-M0+ --li --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "ARMCM0P SETA 1"--list .\listings\assembly_file.lst --xref -o .\objects\assembly_file.o --depend .\objects\assembly_file.d)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Source\ARM\clib_arm.c)(0x5CB028AC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\clib_arm.o --omf_browse .\objects\clib_arm.crf --depend .\objects\clib_arm.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB028B2)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB028AC)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB028AC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5CB028B4)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\semphr.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\queue.h)(0x5CB028B2)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Source\cmsis_os1.c)(0x5B728442)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cmsis_os1.o --omf_browse .\objects\cmsis_os1.crf --depend .\objects\cmsis_os1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1\cmsis_os.h)(0x5CB028AC)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB028B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB028AC)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB028AC)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5CB028B4)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8F5DE8)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Source\cmsis_os2.c)(0x5CB028AC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cmsis_os2.o --omf_browse .\objects\cmsis_os2.crf --depend .\objects\cmsis_os2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8F5DE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include\os_tick.h)(0x5B61B6D4)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB028B2)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB028AC)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB028AC)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5CB028B4)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\event_groups.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\timers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\semphr.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\queue.h)(0x5CB028B2)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Source\os_systick.c)(0x5B728442)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\os_systick.o --omf_browse .\objects\os_systick.crf --depend .\objects\os_systick.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include\os_tick.h)(0x5B61B6D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Lib\ARM\arm_cortexM0l_math.lib)(0x5D25D706)()
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_nn_activations_q15.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_nn_activations_q15.o --omf_browse .\objects\arm_nn_activations_q15.crf --depend .\objects\arm_nn_activations_q15.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_nn_activations_q7.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_nn_activations_q7.o --omf_browse .\objects\arm_nn_activations_q7.crf --depend .\objects\arm_nn_activations_q7.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_relu_q15.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_relu_q15.o --omf_browse .\objects\arm_relu_q15.crf --depend .\objects\arm_relu_q15.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_relu_q7.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_relu_q7.o --omf_browse .\objects\arm_relu_q7.crf --depend .\objects\arm_relu_q7.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_1x1_HWC_q7_fast_nonsquare.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_convolve_1x1_hwc_q7_fast_nonsquare.o --omf_browse .\objects\arm_convolve_1x1_hwc_q7_fast_nonsquare.crf --depend .\objects\arm_convolve_1x1_hwc_q7_fast_nonsquare.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q15_basic.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_convolve_hwc_q15_basic.o --omf_browse .\objects\arm_convolve_hwc_q15_basic.crf --depend .\objects\arm_convolve_hwc_q15_basic.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q15_fast.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_convolve_hwc_q15_fast.o --omf_browse .\objects\arm_convolve_hwc_q15_fast.crf --depend .\objects\arm_convolve_hwc_q15_fast.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_RGB.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_convolve_hwc_q7_rgb.o --omf_browse .\objects\arm_convolve_hwc_q7_rgb.crf --depend .\objects\arm_convolve_hwc_q7_rgb.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_basic.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_convolve_hwc_q7_basic.o --omf_browse .\objects\arm_convolve_hwc_q7_basic.crf --depend .\objects\arm_convolve_hwc_q7_basic.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_basic_nonsquare.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_convolve_hwc_q7_basic_nonsquare.o --omf_browse .\objects\arm_convolve_hwc_q7_basic_nonsquare.crf --depend .\objects\arm_convolve_hwc_q7_basic_nonsquare.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_fast.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_convolve_hwc_q7_fast.o --omf_browse .\objects\arm_convolve_hwc_q7_fast.crf --depend .\objects\arm_convolve_hwc_q7_fast.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_fast_nonsquare.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_convolve_hwc_q7_fast_nonsquare.o --omf_browse .\objects\arm_convolve_hwc_q7_fast_nonsquare.crf --depend .\objects\arm_convolve_hwc_q7_fast_nonsquare.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_conv_u8_basic_ver1.c)(0x5D25D708)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_depthwise_conv_u8_basic_ver1.o --omf_browse .\objects\arm_depthwise_conv_u8_basic_ver1.crf --depend .\objects\arm_depthwise_conv_u8_basic_ver1.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBC032)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_separable_conv_HWC_q7.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_depthwise_separable_conv_hwc_q7.o --omf_browse .\objects\arm_depthwise_separable_conv_hwc_q7.crf --depend .\objects\arm_depthwise_separable_conv_hwc_q7.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_separable_conv_HWC_q7_nonsquare.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_depthwise_separable_conv_hwc_q7_nonsquare.o --omf_browse .\objects\arm_depthwise_separable_conv_hwc_q7_nonsquare.crf --depend .\objects\arm_depthwise_separable_conv_hwc_q7_nonsquare.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_nn_mat_mult_kernel_q7_q15.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_nn_mat_mult_kernel_q7_q15.o --omf_browse .\objects\arm_nn_mat_mult_kernel_q7_q15.crf --depend .\objects\arm_nn_mat_mult_kernel_q7_q15.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_nn_mat_mult_kernel_q7_q15_reordered.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_nn_mat_mult_kernel_q7_q15_reordered.o --omf_browse .\objects\arm_nn_mat_mult_kernel_q7_q15_reordered.crf --depend .\objects\arm_nn_mat_mult_kernel_q7_q15_reordered.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_mat_q7_vec_q15.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_fully_connected_mat_q7_vec_q15.o --omf_browse .\objects\arm_fully_connected_mat_q7_vec_q15.crf --depend .\objects\arm_fully_connected_mat_q7_vec_q15.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_mat_q7_vec_q15_opt.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_fully_connected_mat_q7_vec_q15_opt.o --omf_browse .\objects\arm_fully_connected_mat_q7_vec_q15_opt.crf --depend .\objects\arm_fully_connected_mat_q7_vec_q15_opt.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q15.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_fully_connected_q15.o --omf_browse .\objects\arm_fully_connected_q15.crf --depend .\objects\arm_fully_connected_q15.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q15_opt.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_fully_connected_q15_opt.o --omf_browse .\objects\arm_fully_connected_q15_opt.crf --depend .\objects\arm_fully_connected_q15_opt.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q7.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_fully_connected_q7.o --omf_browse .\objects\arm_fully_connected_q7.crf --depend .\objects\arm_fully_connected_q7.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q7_opt.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_fully_connected_q7_opt.o --omf_browse .\objects\arm_fully_connected_q7_opt.crf --depend .\objects\arm_fully_connected_q7_opt.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_nn_mult_q15.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_nn_mult_q15.o --omf_browse .\objects\arm_nn_mult_q15.crf --depend .\objects\arm_nn_mult_q15.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_nn_mult_q7.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_nn_mult_q7.o --omf_browse .\objects\arm_nn_mult_q7.crf --depend .\objects\arm_nn_mult_q7.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_nntables.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_nntables.o --omf_browse .\objects\arm_nntables.crf --depend .\objects\arm_nntables.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_q7_to_q15_no_shift.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_q7_to_q15_no_shift.o --omf_browse .\objects\arm_q7_to_q15_no_shift.crf --depend .\objects\arm_q7_to_q15_no_shift.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_q7_to_q15_reordered_no_shift.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_q7_to_q15_reordered_no_shift.o --omf_browse .\objects\arm_q7_to_q15_reordered_no_shift.crf --depend .\objects\arm_q7_to_q15_reordered_no_shift.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\PoolingFunctions\arm_pool_q7_HWC.c)(0x5D25D708)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_pool_q7_hwc.o --omf_browse .\objects\arm_pool_q7_hwc.crf --depend .\objects\arm_pool_q7_hwc.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\SoftmaxFunctions\arm_softmax_q15.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_softmax_q15.o --omf_browse .\objects\arm_softmax_q15.crf --depend .\objects\arm_softmax_q15.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\SoftmaxFunctions\arm_softmax_q7.c)(0x5C8A6ACC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\arm_softmax_q7.o --omf_browse .\objects\arm_softmax_q7.crf --depend .\objects\arm_softmax_q7.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25D708)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25D708)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Source\EventRecorder.c)(0x5B8F96CE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\eventrecorder.o --omf_browse .\objects\eventrecorder.crf --depend .\objects\eventrecorder.d)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include\EventRecorder.h)(0x5B8F96CE)
+I (.\RTE\Compiler\EventRecorderConf.h)(0x5B629760)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Source\retarget_io.c)(0x584E700E)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\retarget_io.o --omf_browse .\objects\retarget_io.crf --depend .\objects\retarget_io.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBC026)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_sys.h)(0x5CEBC030)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+F (RTE\Compiler\EventRecorderConf.h)(0x5B629760)()
+F (RTE\Device\ARMCM0P\startup_ARMCM0plus.s)(0x5C8BA64A)(--cpu Cortex-M0+ --li --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "ARMCM0P SETA 1"--list .\listings\startup_armcm0plus.lst --xref -o .\objects\startup_armcm0plus.o --depend .\objects\startup_armcm0plus.d)
+F (RTE\Device\ARMCM0P\system_ARMCM0plus.c)(0x5D25D708)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\system_armcm0plus.o --omf_browse .\objects\system_armcm0plus.crf --depend .\objects\system_armcm0plus.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c)(0x5CB028AC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\freertos_evr.o --omf_browse .\objects\freertos_evr.crf --depend .\objects\freertos_evr.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB028B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB028AC)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB028AC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5CB028B4)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\semphr.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\queue.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\event_groups.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\timers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\stream_buffer.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include\EventRecorder.h)(0x5B8F96CE)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\croutine.c)(0x5CB028B2)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB028B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB028AC)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB028AC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5CB028B4)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\croutine.h)(0x5CB028B2)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\event_groups.c)(0x5CB028B2)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB028B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB028AC)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB028AC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5CB028B4)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\timers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\event_groups.h)(0x5CB028B2)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\list.c)(0x5CB028B2)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB028B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB028AC)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB028AC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5CB028B4)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB028B2)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\MemMang\heap_4.c)(0x5CB028B4)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB028B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB028AC)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB028AC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5CB028B4)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB028B2)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0\port.c)(0x5CB028B4)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB028B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB028AC)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB028AC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5CB028B4)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB028B2)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\queue.c)(0x5CB028B4)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB028B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB028AC)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB028AC)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5CB028B4)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\queue.h)(0x5CB028B2)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\stream_buffer.c)(0x5CB028B4)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\stream_buffer.o --omf_browse .\objects\stream_buffer.crf --depend .\objects\stream_buffer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB028B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBC032)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB028AC)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB028AC)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5CB028B4)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\stream_buffer.h)(0x5CB028B2)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\tasks.c)(0x5CB028B4)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB028B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB028AC)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB028AC)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5CB028B4)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\timers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\stack_macros.h)(0x5CB028B2)
+F (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\timers.c)(0x5CB028B4)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS2\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB028B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEBC032)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBC032)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB028AC)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DEB9627)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25D706)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h)(0x5BBDB1CA)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB028AC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBC032)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5CB028B4)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\queue.h)(0x5CB028B2)
+I (C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\timers.h)(0x5CB028B2)
+F (RTE\RTOS\FreeRTOSConfig.h)(0x5CB028AC)()

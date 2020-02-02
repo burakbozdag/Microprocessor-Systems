@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Burak Bozdag, ITU, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.28.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.12
+Assembler:       Armasm.exe V6.12
+Linker/Locator:  ArmLink.exe V6.12
+Library Manager: ArmAr.exe V6.12
+Hex Converter:   FromElf.exe V6.12
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.2.0
+Target DLL:      UL2CM3.DLL V1.162.16.0
+Dialog DLL:      TARMCM1.DLL V1.14.1.0
+ 
+<h2>Project:</h2>
+C:\Users\Burak\Desktop\Microprocessor Systems\homework1\homework1.uvprojx
+Project File Date:  10/19/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.12', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+assembling startup_ARMCM0plus.s...
+assembling recursive.s...
+recursive.s(55): warning: A1581W: Added 2 bytes of padding at address 0x3e
+compiling system_ARMCM0plus.c...
+C:/Users/Burak/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.6.1/Source/EventRecorder.c(660): warning: "Invalid Time Stamp Source selected in EventRecorderConf.h!" [-W#warnings]
+#warning "Invalid Time Stamp Source selected in EventRecorderConf.h!"
+ ^
+1 warning generated.
+compiling EventRecorder.c...
+linking...
+Program Size: Code=144 RO-data=216 RW-data=16 ZI-data=2216  
+".\Objects\homework1.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+   * Component: DSP Variant: Library Version: 1.7.0
+   * Component: Startup Version: 1.2.0
+
+Package Vendor: NXP
+                http://mcuxpresso.nxp.com/cmsis_pack/repo/NXP.EVKB-IMXRT1050_BSP.12.0.0.pack
+                NXP.EVKB-IMXRT1050_BSP.12.0.0
+                Board Support Pack for EVKBIMXRT1050
+   * Component: serial_manager_usb_config Version: 1.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.6.1.pack
+                Keil.ARM_Compiler.1.6.1
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: Event Recorder Variant: DAP Version: 1.4.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Compiler
+  .\RTE\_Target_1
+  C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include
+  C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include
+  C:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include
+  C:\Users\Burak\AppData\Local\Arm\Packs\NXP\EVKB-IMXRT1050_BSP\12.0.0\component_examples\config
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+
+   * Component: ARM::CMSIS:DSP:Library:1.7.0
+      Library file:  CMSIS\DSP\Lib\ARM\arm_cortexM0l_math.lib
+      Include file:  CMSIS\DSP\Include\arm_math.h
+
+   * Component: ARM::Device:Startup:1.2.0
+      Source file:   Device\ARM\ARMCM0plus\Source\ARM\startup_ARMCM0plus.s
+      Include file:  Device\ARM\ARMCM0plus\Include\ARMCM0plus.h
+      Source file:   Device\ARM\ARMCM0plus\Source\system_ARMCM0plus.c
+
+   * Component: Keil.ARM Compiler::Compiler:Event Recorder:DAP:1.4.0
+      Source file:   Source\EventRecorder.c
+      Include file:  Include\EventRecorder.h
+      Include file:  Config\EventRecorderConf.h
+
+   * Component: NXP::Device:SDK Utilities:serial_manager_usb_config:1.0.0
+      Include file:  component_examples\config\usb_device_config.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

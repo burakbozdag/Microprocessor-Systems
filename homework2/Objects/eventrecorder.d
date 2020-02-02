@@ -1,0 +1,12 @@
+.\objects\eventrecorder.o: C:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Source\EventRecorder.c
+.\objects\eventrecorder.o: .\RTE\_Target_1\RTE_Components.h
+.\objects\eventrecorder.o: C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\ARMCM0plus.h
+.\objects\eventrecorder.o: C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\eventrecorder.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\eventrecorder.o: C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\eventrecorder.o: C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\eventrecorder.o: C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\eventrecorder.o: C:\Users\Burak\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include\system_ARMCM0plus.h
+.\objects\eventrecorder.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\eventrecorder.o: C:\Users\Burak\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include\EventRecorder.h
+.\objects\eventrecorder.o: .\RTE\Compiler\EventRecorderConf.h
